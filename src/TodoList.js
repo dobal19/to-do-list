@@ -18,7 +18,8 @@ class TodoList extends React.Component {
     console.log('event', event.target.value)
   }
 
-  addItem(){
+  addItem(event){
+    event.preventDefault();
     this.setState(prev => {
       return {
         item_input: '',
@@ -41,9 +42,12 @@ class TodoList extends React.Component {
             )
           }
         </ul>
+          <form onSubmit={this.addItem}>
+
         <input className="inputBox" type="text"
           value={this.state.item_input}
           onChange={this.update}></input>
+          </form>
 
       </div>
     )
