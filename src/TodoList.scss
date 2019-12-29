@@ -1,5 +1,4 @@
 .GrandParent{
-    background-color: black;
     color: floralwhite;
     // margin-left: 110px;
 }
@@ -11,8 +10,33 @@
 }
 .listParent{
     font-size: 18px;
+    margin-left: 18px   ;
     
 }
 .listItems{
     list-style-type: circle;
+}
+.button{
+    background-color: rgb(86, 110, 86);
+    border: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 550px;
+    cursor: pointer;
+}
+.inputBox{
+    width: -webkit-fill-available;
+    margin-right: 50px;
+    margin-top: 1px;
+    margin-left: 50px;
+    margin-bottom: 1px;
+    color: whitesmoke;
+    background-color: black;
 }
